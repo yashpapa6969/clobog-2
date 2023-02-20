@@ -12,14 +12,14 @@ const FeelSpecial = () => {
               feel special more often.
             </div>
             <div className="photo-section-subheading">
-              exclusive rewards for paying your bills
+              exclusive rewards on buying from Clobog
             </div>
           </div>
           <div className="photo-section-bottom dynamic-margin">
             <div className="photo-section-description">
-              every time you pay your credit card bills on CRED, you receive
-              CRED coins. you can use these to win exclusive rewards or get
-              special access to curated products and experiences. on CRED, good
+              every time you buy Clothes on Clobog, you receive
+               coins. you can use these to win exclusive rewards or get
+              special access to curated products and experiences. on Clobog, good
               begets good.
             </div>
             <div className="photo-section-button">

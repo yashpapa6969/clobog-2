@@ -25,7 +25,7 @@ const AppRating = () => {
       <div className="flex app-rating-block flex-col">
         <div className="flex">
           <div className="app-rating-value flex flex-col">
-            4.8
+            0
             <img
               src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-ios.png"
               className="app-rating-stars"
@@ -46,7 +46,7 @@ const AppRating = () => {
       <div className="flex app-rating-block flex-col">
         <div className="flex">
           <div className="app-rating-value flex flex-col">
-            4.7
+            0
             <img
               src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-android.png"
               className="app-rating-stars"

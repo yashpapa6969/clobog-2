@@ -9,18 +9,15 @@ const CredExperience = () => {
         <div className="photo-section-child">
           <div className="photo-section-top">
             <div className="photo-section-heading cred-experience-heading">
-              we take your money matters seriously.
+              Get Thrift Clothes at Clobog
             </div>
             <div className="photo-section-subheading">
-              so that you don’t have to.
+              so that you don’t have to Search Anywhere else.
             </div>
           </div>
           <div className="photo-section-bottom">
             <div className="photo-section-description cred-experience-description">
-              never miss a due date with reminders to help you pay your bills on
-              time, instant settlements mean you never wait for your payments to
-              go through and statement analysis lets you know where your money
-              goes, always.
+              get all your attire in just a few clicks
             </div>
             <div className="photo-section-button">
               <Button buttonText="Experience the upgrade" />

@@ -5,7 +5,9 @@
 }
 
 .header-logo {
-  height: 66px;
+  background-image:url("./closmall.png") ;
+  height: 86px;
+  width: 270px;
 }
 
 .header-toggle-btn {

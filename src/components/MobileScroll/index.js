@@ -2,34 +2,34 @@ import React, { useState } from "react";
 import "./mobileScroll.css";
 import ScreenText from "./ScreenText";
 
+
 const scrollData = [
   {
     heading: "we’ve got your back.",
     description:
-      "gain complete control over your credit card with CRED Protect. receive category-based analysis of your spends, detect hidden charges, and track your credit limit in real-time.",
-    mobile_img:
-      "https://web-images.credcdn.in/_next/assets/images/home-page/features/fold1.png",
+      "lorem ipsem ",
+    mobile_img:"https://www.resizepixel.com/Image/nijqoupho/Preview/CartPage.jpg?v=a0463474-cf17-4017-aac0-a1d8d8448278",
   },
   {
     heading: "begin your winning streak.",
     description:
-      "use your CRED coins to participate in games and raffles to win the most exclusive rewards and cashbacks on CRED. good luck.",
+      "lorem ipsem",
     mobile_img:
-      "https://web-images.credcdn.in/_next/assets/images/home-page/features/fold2.png",
+      "https://www.resizepixel.com/Image/kpqnvkjbe/Preview/Detail.jpg?v=c409da75-3983-404d-b646-2d306b603544",
   },
   {
     heading: "for your eclectic taste.",
     description:
-      "get access to the CRED Store, a member-exclusive selection of products and experiences at special prices that complement your taste. this is the good life they speak of.",
+      "lorem ipsem.",
     mobile_img:
-      "https://web-images.credcdn.in/_next/assets/images/home-page/features/fold3.png",
+      "https://www.resizepixel.com/Image/evmdonjfo/Preview/Detail.jpg?v=89dbda1d-8c46-4d76-89df-3de60d930f93",
   },
   {
     heading: "more cash in your pockets.",
     description:
-      "switch to CRED RentPay and start paying rent with your credit card. this way you get up to 45 days of credit free period, more reward points and a happy landlord.",
+      "lorem ipsem",
     mobile_img:
-      "https://web-images.credcdn.in/_next/assets/images/home-page/features/fold4.png",
+      "https://www.resizepixel.com/Image/axulmypuz/Preview/SearchPage.png?v=b0f25733-83bf-408c-857b-9014d2fb3a3a",
   },
 ];
 

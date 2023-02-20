@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 
+
 const Header = () => {
   const [showMobMenu, setShowMobMenu] = useState(false);
 
@@ -15,15 +16,14 @@ const Header = () => {
         className={`mobile-menu only-mobile ${showMobMenu ? "overlay" : ""}`}
       >
         <div className="mobile-navbar">
-          <div className="mobile-nav-item">credit score check</div>
-          <div className="mobile-nav-item">credit card bill payment</div>
+          <div className="mobile-nav-item">Thrift Clothes</div>
+          <div className="mobile-nav-item">@ Clobog\</div>
         </div>
       </div>
       <div className="max-width flex header">
-        <img
-          src="https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png"
-          className="header-logo"
-        />
+       
+         <div className="header-logo"></div>
+      
         <div className="only-mobile mobile-menu-button-wrapper">
           <button
             class={`hamburger hamburger--spin ${
@@ -38,8 +38,8 @@ const Header = () => {
           </button>
         </div>
         <div className="non-mobile flex">
-          <div className="header-nav-item">credit score check</div>
-          <div className="header-nav-item">credit card bill payment</div>
+          <div className="header-nav-item">Thrift Clothes</div>
+          <div className="header-nav-item">@ Clobog</div>
         </div>
       </div>
     </div>
