@@ -3,7 +3,6 @@
   height: 800px;
   position: relative;
   overflow: hidden;
-  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
   background-size: cover;
   background-position: right top;
 }
@@ -57,7 +56,6 @@
 @media all and (max-width: 767px) {
   .product-showcase {
     height: 450px;
-    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg-mobile.png);
   }
   .showcase-ui {
     width: 170px;

@@ -17,7 +17,7 @@ const HomePage = () => {
     <>
       <Header />
       <HeroSection />
-      //productShowcase
+      <ProductShowcase/>
       <FeelSpecial />
       <BrandsLove />
       <CredExperience />

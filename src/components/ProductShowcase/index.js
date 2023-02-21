@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useEffect } from "react/cjs/react.development";
 import "./productShowcase.css";
+import img1 from "./product_detai.jpg";
 
 const ProductShowcase = () => {
   const [showAnimation, setShowAnimation] = useState(false);
@@ -40,23 +41,23 @@ const ProductShowcase = () => {
       {showAnimation && (
         <div className="showcase-wrapper">
           <img
-            src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/left-2.png"
+            src={img1} alt= ""
             className="showcase-ui showcase-mockup-1"
           />
           <img
-            src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/left-1.png"
+            src= {img1} alt=""
             className="showcase-ui showcase-mockup-2"
           />
           <img
-            src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/center.png"
+            src={img1}
             className="showcase-ui showcase-mockup-3"
           />
           <img
-            src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/right-1.png"
+            src={img1}
             className="showcase-ui showcase-mockup-4"
           />
           <img
-            src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/right-2.png"
+            src={img1}
             className="showcase-ui showcase-mockup-5"
           />
         </div>
