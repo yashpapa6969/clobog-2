@@ -11,24 +11,27 @@ import HeroSection from "../components/HeroSection";
 import MobileScroll from "../components/MobileScroll";
 import ProductShowcase from "../components/ProductShowcase";
 import WindowPeak from "../components/WindowPeak";
+import About1 from "../components/about";
+import Community from "../components/community";
+import SocialFollow from "../components/common/footer";
+import "./Social.css";
+import Clobob from "../components/card";
+
 
 const HomePage = () => {
   return (
     <>
       <Header />
-      <HeroSection />
-      <ProductShowcase/>
+      <About1/>
       <FeelSpecial />
-      <BrandsLove />
-      <CredExperience />
       <MobileScroll />
       <div className="non-mobile">
         <WindowPeak />
       </div>
-      <CredSecurity />
       <CredStory />
-      <AppRating />
-      <Footer />
+      <Community/>
+      <CredExperience />
+    <SocialFollow />
     </>
   );
 };

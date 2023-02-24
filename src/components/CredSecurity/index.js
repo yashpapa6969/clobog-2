@@ -22,7 +22,7 @@ const CredSecurity = () => {
               no room for mistakes because we didn’t leave any.
             </div>
             <div className="photo-section-button">
-              <Button buttonText="Become a member" />
+              <Button buttonText="Become a buyer" />
             </div>
           </div>
         </div>

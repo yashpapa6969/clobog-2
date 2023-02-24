@@ -2,6 +2,14 @@ import React, { useRef, useState } from "react";
 import { useEffect } from "react/cjs/react.development";
 import "./productShowcase.css";
 import img1 from "./product_detai.jpg";
+import img2 from "./1.png";
+import img3 from "./2.png";
+import img4 from "./3.png";
+import img5 from "./4.png";
+import img6 from "./5.png";
+import img7 from "./6.png";
+
+
 
 const ProductShowcase = () => {
   const [showAnimation, setShowAnimation] = useState(false);
@@ -34,6 +42,12 @@ const ProductShowcase = () => {
   });
   return (
     <div
+
+
+
+
+
+
       className={`product-showcase ${showAnimation ? "scale-in-bottom" : ""}`}
       scale-in-bottom
       ref={ref}

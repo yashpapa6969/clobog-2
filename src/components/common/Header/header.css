@@ -5,9 +5,15 @@
 }
 
 .header-logo {
-  background-image:url("./closmall.png") ;
-  height: 86px;
-  width: 270px;
+  
+  color: #000;
+font-size:500%;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: bold;
+
+
 }
 
 .header-toggle-btn {
@@ -15,9 +21,10 @@
 }
 
 .header-nav-item {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
-  margin: 0px 20px 0px 36px;
+  margin: 20px 20px 0px 36px;
+  color: #000;
 }
 
 .mobile-menu-wrapper {
@@ -81,3 +88,46 @@
     padding-bottom: 50px;
   }
 }
+.App {
+  color: #000;
+  font-family: sans-serif;
+  text-align: center;
+}
+.button-wrapper {
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 65px;
+  width: max-content;
+  border: 2px black;
+  border-style:solid;
+  border-color: black;
+  border-radius: 5%;
+
+}
+
+.button-wrapper1{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 65px;
+  width: max-content;
+  border-radius: 5%;
+}
+@media all and (max-width: 300px) {
+  .button-wrapper1 {
+    font-size: 18px;
+    padding: 16px 24px;
+  }
+}
+@media all and (max-width: 300px) {
+  .button-wrapper {
+    font-size: 18px;
+    padding: 16px 24px;
+  }
+}
+

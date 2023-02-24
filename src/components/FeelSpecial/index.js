@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../common/Button";
 import "./feelSpecial.css";
+
 
 const FeelSpecial = () => {
   return (
@@ -8,27 +8,22 @@ const FeelSpecial = () => {
       <div className="max-width">
         <div className="photo-section-child">
           <div className="photo-section-top dynamic-margin">
-            <div className="photo-section-heading">
-              feel special more often.
-            </div>
+            
             <div className="photo-section-subheading">
-              exclusive rewards on buying from Clobog
+            Discover stylish and trendy clothing at prices that won't break the bank
             </div>
           </div>
           <div className="photo-section-bottom dynamic-margin">
             <div className="photo-section-description">
-              every time you buy Clothes on Clobog, you receive
-               coins. you can use these to win exclusive rewards or get
-              special access to curated products and experiences. on Clobog, good
-              begets good.
+            At Clobog, we offer an exciting and unique shopping experience where you can find high-quality, affordable clothes from top brands that are normally only available in select stores.
             </div>
-            <div className="photo-section-button">
-              <Button buttonText="Explore rewards" />
+            <button
+          className="button-wrapper1"
+          >Explore Now</button>
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

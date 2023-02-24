@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./header.css";
+import button1 from "../Button"
+
+
 
 
 const Header = () => {
@@ -16,13 +19,13 @@ const Header = () => {
         className={`mobile-menu only-mobile ${showMobMenu ? "overlay" : ""}`}
       >
         <div className="mobile-navbar">
-          <div className="mobile-nav-item">Thrift Clothes</div>
-          <div className="mobile-nav-item">@ Clobog\</div>
+          <div className="mobile-nav-item">About</div>
+          <div className="mobile-nav-item">Business</div>
         </div>
       </div>
       <div className="max-width flex header">
        
-         <div className="header-logo"></div>
+         <div className="header-logo">Clobog</div>
       
         <div className="only-mobile mobile-menu-button-wrapper">
           <button
@@ -38,11 +41,18 @@ const Header = () => {
           </button>
         </div>
         <div className="non-mobile flex">
-          <div className="header-nav-item">Thrift Clothes</div>
-          <div className="header-nav-item">@ Clobog</div>
+          <div className="header-nav-item">About</div>
+          <div className="header-nav-item">Business</div>
+          <button1
+          className="button-wrapper"
+          >Signup</button1>
+          <button1
+          className="button-wrapper1"
+          >Login</button1>
+          </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

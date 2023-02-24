@@ -1,6 +1,6 @@
 .feel-special {
-  background-color: var(--bg-red);
-  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+  background-image: url(./Smoke-PNG-Image-lkahnrcss.png);
+  background-color: #023E8A;
 }
 
 @media all and (max-width: 1279px) {
@@ -11,8 +11,20 @@
 
 @media all and (max-width: 767px) {
   .feel-special {
-    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+    background-image: url(./Smoke-PNG-Image-lkahnrcss.png);
+  background-color: #023E8A;
+ 
     min-height: 1150px;
     background-position: right center;
   }
+}
+.button-wrapper3{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 65px;
+  width: max-content;
+  border-radius: 5%;
 }

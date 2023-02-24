@@ -1,6 +1,7 @@
 import React from "react";
-import Button from "../common/Button";
 import "./credExperience.css";
+import Clobob from "../card";
+
 
 const CredExperience = () => {
   return (
@@ -8,20 +9,18 @@ const CredExperience = () => {
       <div className="max-width">
         <div className="photo-section-child">
           <div className="photo-section-top">
-            <div className="photo-section-heading cred-experience-heading">
-              Get Thrift Clothes at Clobog
+            <div className="photo-section-subheading cred-experience-heading">
+            Join our fashion community and stay up-to-date on the latest styles and promotions
+
             </div>
-            <div className="photo-section-subheading">
-              so that you don’t have to Search Anywhere else.
-            </div>
+           
           </div>
-          <div className="photo-section-bottom">
-            <div className="photo-section-description cred-experience-description">
-              get all your attire in just a few clicks
-            </div>
-            <div className="photo-section-button">
-              <Button buttonText="Experience the upgrade" />
-            </div>
+          <div className="photo-section-bottom" >
+            <Clobob></Clobob>
+          
+          
+            
+            
           </div>
         </div>
       </div>
