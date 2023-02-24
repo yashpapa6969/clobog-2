@@ -44,10 +44,10 @@ const Header = () => {
           <div className="header-nav-item">About</div>
           <div className="header-nav-item">Business</div>
           <button1
-          className="button-wrapper"
+          className="button-wrapper2"
           >Signup</button1>
           <button1
-          className="button-wrapper1"
+          className="button-wrap-login button-wrapper2"
           >Login</button1>
           </div>
         </div>

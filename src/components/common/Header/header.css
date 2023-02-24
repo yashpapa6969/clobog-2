@@ -93,8 +93,8 @@ font-weight: bold;
   font-family: sans-serif;
   text-align: center;
 }
-.button-wrapper {
-  background-color: transparent;
+.button-wrapper2 {
+  background: var(--bg-black);
   cursor: pointer;
   color: black;
   font-size: 18px;
@@ -104,11 +104,11 @@ font-weight: bold;
   border: 2px black;
   border-style:solid;
   border-color: black;
-  border-radius: 5%;
+  border-radius: 10px;
 
 }
 
-.button-wrapper1{
+.button-wrapper3 {
   cursor: pointer;
   background-color: black;
   color: white;
@@ -116,16 +116,16 @@ font-weight: bold;
   font-weight: 700;
   padding: 20px 65px;
   width: max-content;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 @media all and (max-width: 300px) {
-  .button-wrapper1 {
+  .button-wrapper2 {
     font-size: 18px;
     padding: 16px 24px;
   }
 }
 @media all and (max-width: 300px) {
-  .button-wrapper {
+  .button-wrapper3 {
     font-size: 18px;
     padding: 16px 24px;
   }
