@@ -6,16 +6,15 @@ import CredStory from "../components/CredStory";
 import FeelSpecial from "../components/FeelSpecial";
 import MobileScroll from "../components/MobileScroll";
 import WindowPeak from "../components/WindowPeak";
-import About from "../components/about";
 import Community from "../components/community";
 import SocialFollow from "../components/common/footer";
-import Grid from "../components/Grid/abc";
+import Grid from "../components/Grid";
 const HomePage = () => {
   return (
     <>
       <Header />
       <Grid/>
-            <FeelSpecial />
+      <FeelSpecial />
       <MobileScroll />
       <div className="non-mobile">
         <WindowPeak />
