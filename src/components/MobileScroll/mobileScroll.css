@@ -25,9 +25,10 @@
   transform: translateX(30%);
   width: 350px;
   height: 600px;
-  box-shadow: var(--mobile-box-shadow);
+  box-shadow:none;
   border-radius: 46px;
-  padding: 16px 14px;
+  padding-left: 30px;
+  padding-right: 30px;
   max-height: 100vh;
 }
 

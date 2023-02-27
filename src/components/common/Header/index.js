@@ -29,14 +29,14 @@ const Header = () => {
       
         <div className="only-mobile mobile-menu-button-wrapper">
           <button
-            class={`hamburger hamburger--spin ${
+            className={`hamburger hamburger--spin ${
               showMobMenu ? "is-active" : ""
             }`}
             type="button"
             onClick={toggleMobileMenu}
           >
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
             </span>
           </button>
         </div>
@@ -46,9 +46,9 @@ const Header = () => {
           <button1
           className="button-wrapper2"
           >Signup</button1>
-          <button1
+          <button
           className="button-wrap-login button-wrapper2"
-          >Login</button1>
+          >Login</button>
           </div>
         </div>
       </div>

@@ -19,7 +19,6 @@ const HomePage = () => {
       <div className="non-mobile">
         <WindowPeak />
       </div>
-      <CredStory />
       <Community/>
       <CredExperience />
     <SocialFollow />

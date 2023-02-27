@@ -1,35 +1,37 @@
 import React, { useState } from "react";
 import "./mobileScroll.css";
 import ScreenText from "./ScreenText";
+import img1 from "./1.png";
+import img2 from "./2.png";
+import img3 from "./3.png";
+import img4 from "./4.png";
+
 
 
 const scrollData = [
   {
-    heading: "we’ve got your back.",
+    heading: "Browse through our feed specially designed for you",
     description:
-      "lorem ipsem ",
-    mobile_img:"https://www.resizepixel.com/Image/nijqoupho/Preview/CartPage.jpg?v=a0463474-cf17-4017-aac0-a1d8d8448278",
+      "",
+    mobile_img:img1,
   },
   {
-    heading: "begin your winning streak.",
+    heading: "Like what you see? click on it for more details",
     description:
-      "lorem ipsem",
-    mobile_img:
-      "https://www.resizepixel.com/Image/kpqnvkjbe/Preview/Detail.jpg?v=c409da75-3983-404d-b646-2d306b603544",
+      "",
+    mobile_img:img2,
   },
   {
-    heading: "for your eclectic taste.",
+    heading: "Easily checkout your order",
     description:
-      "lorem ipsem.",
-    mobile_img:
-      "https://www.resizepixel.com/Image/evmdonjfo/Preview/Detail.jpg?v=89dbda1d-8c46-4d76-89df-3de60d930f93",
+      "",
+    mobile_img:img3,
   },
   {
-    heading: "more cash in your pockets.",
+    heading: "happiness on  your way!!",
     description:
-      "lorem ipsem",
-    mobile_img:
-      "https://www.resizepixel.com/Image/axulmypuz/Preview/SearchPage.png?v=b0f25733-83bf-408c-857b-9014d2fb3a3a",
+      "",
+    mobile_img:img4,
   },
 ];
 
@@ -39,7 +41,7 @@ const MobileScroll = () => {
     <div className="mobile-scroll flex max-width">
       <div className="scroll-full-screen-wrapper">
         {scrollData.map((screen, i) => (
-          <div className="scroll-full-screen">
+          <div key={i} className="scroll-full-screen">
             <ScreenText screen={screen} setCurrentImg={setCurrentImg} i={i} />
           </div>
         ))}

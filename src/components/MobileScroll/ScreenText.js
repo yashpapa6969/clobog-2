@@ -30,6 +30,8 @@ const ScreenText = ({ screen, setCurrentImg, i }) => {
     };
   }, []);
 
+  console.log(screen.mobile_img);
+
   return (
     <div className={`screen-text ${isVisible ? "text-visible" : ""}`} ref={ref}>
       <div className="screen-heading">{screen.heading}</div>
